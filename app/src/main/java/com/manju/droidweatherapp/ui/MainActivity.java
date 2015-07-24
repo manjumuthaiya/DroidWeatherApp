@@ -71,7 +71,7 @@ public class MainActivity extends Activity {
     private void getForecast(double latitude, double longitude) {
 
 
-        String apiKey = "fd66f015f8799cd3aa2f637247b4158f";
+        String apiKey = "****";
 
         String forecastUrl = new StringBuilder("https://api.forecast.io/forecast/")
                 .append(apiKey)
